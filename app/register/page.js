@@ -1,0 +1,2 @@
+import Shell from '@/components/Shell';import AuthForm from '@/components/AuthForm';import Link from 'next/link';
+export default function Register(){return <Shell><main className="wrap"><section className="auth panel"><div className="eyebrow">CREATE YOUR ACCOUNT</div><h2>Join ProTools</h2><p className="muted">Create your free account to get started.</p><AuthForm mode="register"/><p className="muted">Already registered? <Link href="/login">Sign in</Link></p></section></main></Shell>}

@@ -1,0 +1,2 @@
+import Shell from '@/components/Shell';import AuthForm from '@/components/AuthForm';import Link from 'next/link';
+export default function Login(){return <Shell><main className="wrap"><section className="auth panel"><div className="eyebrow">WELCOME BACK</div><h2>Sign in to ProTools</h2><p className="muted">Access your account and saved workspace.</p><AuthForm mode="login"/><p className="muted">New here? <Link href="/register">Create an account</Link></p></section></main></Shell>}

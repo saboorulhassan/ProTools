@@ -1,0 +1,3 @@
+
+import Link from 'next/link';
+export default function Shell({children}){return <><header className="topbar"><div className="wrap nav"><Link className="brand" href="/">PRO<span>TOOLS</span></Link><nav className="navlinks"><Link href="/tools">Tools</Link><Link href="/pricing">Pricing</Link><Link href="/dashboard">Dashboard</Link><Link href="/login">Login</Link><Link className="btn" href="/register">Get started</Link></nav></div></header>{children}<footer className="footer"><div className="wrap row" style={{justifyContent:'space-between'}}><span>© {new Date().getFullYear()} ProTools</span><span>Built for creators, students and professionals</span></div></footer></>}
